@@ -1,0 +1,53 @@
+/* Basic CSS Reset */
+
+/* Box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strong, sub, sup, time, var,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a default font size and family */
+body {
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    line-height: 1.5; /* Improve readability */
+}
+
+/* Set a default background color */
+body {
+    background-color: #fff; /* Change to your preferred background color */
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Set the default table border spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Allow images to be responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set default styles for links */
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
