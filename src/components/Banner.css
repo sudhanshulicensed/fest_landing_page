@@ -1,0 +1,18 @@
+.banner {
+    margin-top: 4.25rem;
+}
+.banner__title {
+    max-width: 681px;
+}
+
+.banner_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3.5rem;
+}
+
+.banner__subtitle {
+    margin: 5rem 1.5rem 0 0;
+}
