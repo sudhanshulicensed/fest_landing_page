@@ -1,0 +1,27 @@
+.app {
+    display: flex;
+    flex-direction: column; /* Align children in a column */
+    width: 100%; /* Full width */
+    min-height: 100vh; /* Ensure the app takes at least the full viewport height */
+}
+
+.section {
+    width: 100%; /* Full width for each section */
+    height: 100vh; /* Each section takes full viewport height */
+    display: flex; /* Flexbox to align content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: #fff; /* Text color (adjust as needed) */
+}
+
+#section1 {
+    background-image: url('./assets/images/Section1_BG.jpg'); /* Set your background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: top; /* Center the background image */
+}
+
+#section2 {
+    background-image: url('./assets/images/Section1_BG.jpg'); /* Set your background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+}

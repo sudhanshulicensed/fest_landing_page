@@ -20,7 +20,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 /* Set a default font size and family */
 body {
-    font-family: Arial, sans-serif; /* Change to your preferred font */
     line-height: 1.5; /* Improve readability */
 }
 

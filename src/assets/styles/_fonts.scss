@@ -1,0 +1,53 @@
+:root {
+    --font-family: 'Ubuntu', sans-serif;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 20px;
+    --font-size-xxlarge: 32px;
+    --font-size-xxxlarge: 48px;
+}
+
+*{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-regular);
+}
+
+.font-w-light {
+    font-weight: var(--font-weight-light);
+}
+
+.font-w-regular {
+    font-weight: var(--font-weight-regular);
+}
+
+.font-w-medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.font-w-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.font-s-small {
+    font-size: var(--font-size-small);
+}
+.font-s-medium {
+    font-size: var(--font-size-medium);
+}
+.font-s-large {
+    font-size: var(--font-size-large);
+}
+.font-s-xlarge {
+font-size: var(--font-size-xlarge);
+}
+.font-s-xxlarge {
+    font-size: var(--font-size-xxlarge);
+}
+.font-s-xxxlarge {
+    font-size: var(--font-size-xxxlarge);
+}
