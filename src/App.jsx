@@ -9,6 +9,7 @@ import ExperienceDemo from "@/components/ExperienceDemo";
 import Highlights from "@/components/Highlights";
 import Schedule from "@/components/Schedule";
 import Upcoming from "@/components/Upcoming";
+import Destination from "@/components/Destination";
 
 import "./App.css";
 
@@ -36,6 +37,9 @@ export default function App() {
       </section>
       <section id="section7" className="section">
         <Upcoming />
+      </section>
+      <section id="section8" className="section">
+        <Destination />
       </section>
       <Main />
       <Footer />

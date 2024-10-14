@@ -1,0 +1,25 @@
+.destination__label {
+    color : #FF4A2E;
+}
+
+.destination__title {
+    color: #0E0E0E;
+    font-size: 44px;
+}
+
+.destination__item {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.4rem;
+}
+
+.destination__item-image {
+    position: relative;
+}
+
+.destination__item-text {
+    position: absolute;
+    left: 35%;
+    top: 38%;
+}

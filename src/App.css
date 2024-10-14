@@ -59,3 +59,10 @@
     background-position: top;
     background-repeat: no-repeat;
 }
+
+#section8 {
+    background-image: url('./assets/images/Section8_BG.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
