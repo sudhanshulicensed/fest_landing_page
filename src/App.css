@@ -19,3 +19,8 @@
     background-size: cover; /* Cover the entire section */
     background-position: top; /* Center the background image */
 }
+
+#section3 {
+    position: relative;
+    height: 80vh;
+}
