@@ -16,7 +16,7 @@ import MunichAirport from "@/assets/images/MunichAirport.jpg"
 
 export default function FooterComponent() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer__background">
         <img
           className="footer__background-image"

@@ -18,13 +18,13 @@ export default function MainComponent() {
       <section id="section2" className="section">
         <Event />
       </section>
-      <section id="section3" className="section">
+      <section id="about_us" className="section">
         <EventExperience />
       </section>
-      <section id="section4" className="section">
+      <section id="how_it_works" className="section">
         <ExperienceDemo />
       </section>
-      <section id="section5" className="section">
+      <section id="gallery" className="section">
         <Highlights />
       </section>
       <section id="section6" className="section">
@@ -33,7 +33,7 @@ export default function MainComponent() {
       <section id="section7" className="section">
         <Upcoming />
       </section>
-      <section id="section8" className="section">
+      <section id="destination" className="section">
         <Destination />
       </section>
       <section id="section9">
