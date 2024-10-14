@@ -7,6 +7,8 @@ import Event from "@/components/Events";
 import EventExperience from "@/components/Experience";
 import ExperienceDemo from "@/components/ExperienceDemo";
 import Highlights from "@/components/Highlights";
+import Schedule from "@/components/Schedule";
+
 import "./App.css";
 
 export default function App() {
@@ -27,6 +29,9 @@ export default function App() {
       </section>
       <section id="section5" className="section">
         <Highlights />
+      </section>
+      <section id="section6" className="section">
+        <Schedule />
       </section>
       <Main />
       <Footer />

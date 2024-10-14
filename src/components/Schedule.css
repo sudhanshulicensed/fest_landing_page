@@ -1,0 +1,136 @@
+.schedule {
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedule__component {
+  padding: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.schedule__label {
+  color: #ff4a2e;
+}
+
+.schedule__title {
+  font-size: 44px;
+  color: #000000;
+}
+
+.schedule__navigation-bar {
+  background-color: #1e73ff;
+  height: 73px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.schedule__navigation-list,
+.schedule__navigation-type {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.schedule__navigation-type-item,
+.schedule__navigation-item {
+  font-weight: medium;
+  color: #ffffff;
+  opacity: 0.54;
+  font-size: 18px;
+}
+
+.schedule__navigation-item-active,
+.schedule__navigation-type-item-active {
+  opacity: 1;
+}
+
+.schedule__list {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.schedule__list-wrapper {
+  border: 1px solid #e9e7e7;
+  background-color: white;
+  color: #000000;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.schedule__profile {
+  /* padding: 2rem; */
+}
+
+.schedule-brochure__image {
+  vertical-align: bottom;
+}
+
+.schedule__list-header {
+  color: #000000;
+}
+
+.schedule__list-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+
+.schedule__list-header img {
+  padding-right: 1rem;
+  vertical-align: middle;
+}
+
+.schedule__list-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.schedule__list-item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  font-size: 18px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.schedule__list-item img {
+  vertical-align: top;
+  padding-right: 1rem;
+}
+
+.schedule__list-item div {
+    padding-right: 1rem;
+}
+
+.schedule__list-item::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  top: 20px;
+  bottom: -20px;
+  left: 6px;
+  background-color: transparent;
+  border-left: 1px dashed #1e73ff;
+}
+
+.schedule__list-item:last-child::before {
+  display: none;
+}

@@ -42,3 +42,11 @@
     background-position: top;
     background-repeat: no-repeat;
 }
+
+#section6 {
+    height: auto;
+    background-image: url('./assets/images/Section6_BG.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
