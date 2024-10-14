@@ -25,18 +25,18 @@
     margin: 4rem 0;
 }
 
-#section3 {
+#about_us {
     position: relative;
     height: 80vh;
 }
 
-#section4 {
+#how_it_works {
     background-image: url('./assets/images/Section4_BG.jpg');
     background-size: cover;
     background-position: center;
 }
 
-#section5 {
+#gallery {
     background-image: url('./assets/images/Section5_BG.jpg');
     background-size: cover;
     background-position: top;
@@ -60,7 +60,7 @@
     background-repeat: no-repeat;
 }
 
-#section8 {
+#destination {
     background-image: url('./assets/images/Section8_BG.jpg');
     background-size: cover;
     background-position: top;
