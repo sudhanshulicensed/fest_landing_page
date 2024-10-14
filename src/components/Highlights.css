@@ -69,9 +69,14 @@
 }
 
 .highlights__carousel-images {
+  max-height: 368px;
     display: flex;
     flex-direction: row;
     column-gap: 2rem;
+}
+
+.highlights__image {
+  max-width: 368px;
 }
 
 .highlights__carousel-action-left {
