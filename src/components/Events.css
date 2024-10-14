@@ -1,3 +1,7 @@
+.events {
+  width: 100%;
+}
+
 .event__wrapper {
   min-height: 200px;
   display: flex;
@@ -66,6 +70,7 @@
 
 .event__title {
     margin-bottom: 1rem;
+    color: #000000;
 }
 
 .event__background-image {
