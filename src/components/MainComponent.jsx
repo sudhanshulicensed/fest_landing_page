@@ -15,7 +15,7 @@ export default function MainComponent() {
       <section id="section1" className="section">
         <Banner />
       </section>
-      <section id="section2" className="section">
+      {/* <section id="section2" className="section">
         <Event />
       </section>
       <section id="about_us" className="section">
@@ -38,7 +38,7 @@ export default function MainComponent() {
       </section>
       <section id="section9">
         <NewsLetter />
-      </section>
+      </section> */}
     </main>
   );
 }

@@ -15,9 +15,16 @@
 }
 
 #section1 {
-    background-image: url('./assets/images/Section1_BG.jpg'); /* Set your background image */
-    background-size: cover; /* Cover the entire section */
-    background-position: top; /* Center the background image */
+    background-image: url('./assets/images/Section1_BG.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+@media only screen and (max-width: 768px) {
+    #section1 {
+        background-image: url("@/assets/images/Section1_BG_Mobile.jpg");
+        align-items: flex-end;
+    }
 }
 
 #section2 {

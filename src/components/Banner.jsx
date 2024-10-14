@@ -6,11 +6,12 @@ export default function Banner() {
   return (
     <article className="banner">
       <div className="banner_wrapper">
+        <div className="banner__title-location font-w-light font-s-xxlarge">Sölden, Austria</div>
         <div className="banner__title text-center font-s-xxxlarge font-w-bold">
           Immerse Yourself in the Alpine Beats
         </div>
-        <div>
-            <Button title={"Book Now"} className="banner__button" />
+        <div className="banner__button">
+            <Button title={"Book Now"} />
         </div>
         <div className="banner__image-container">
           <img src={BannerImage} alt="Banner" className="banner__image" />
