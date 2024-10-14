@@ -76,3 +76,33 @@
 .event__background-image {
     width: 100%;
 }
+
+@media (max-width: 998px) {
+  .event__wrapper {
+    flex-direction: column;
+    padding: 0 2rem;
+    row-gap: 2rem;
+  }
+  .event__details {
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .event__main-image {
+    max-height: 163px;
+    max-width: 323px;
+  }
+
+  .event__booking {
+    padding-top: 1rem;
+  }
+
+  .event__title {
+    font-size: 34px !important;
+    margin-bottom: 2rem;
+  }
+  .event__thumbnail {
+    display: none;
+  }
+}

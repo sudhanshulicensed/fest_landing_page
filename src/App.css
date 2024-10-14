@@ -1,17 +1,17 @@
 .app {
     display: flex;
-    flex-direction: column; /* Align children in a column */
-    width: 100%; /* Full width */
-    min-height: 100vh; /* Ensure the app takes at least the full viewport height */
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .section {
-    width: 100%; /* Full width for each section */
-    height: 100vh; /* Each section takes full viewport height */
-    display: flex; /* Flexbox to align content */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    color: #fff; /* Text color (adjust as needed) */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
 #section1 {
@@ -29,7 +29,7 @@
 
 #section2 {
     height: fit-content;
-    margin: 4rem 0;
+    padding-top: 4rem;
 }
 
 #about_us {

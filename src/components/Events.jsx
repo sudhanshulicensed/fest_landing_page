@@ -27,7 +27,7 @@ export default function Event() {
           <p className="event__title font-s-xxxlarge font-w-medium">
             1st Apr - 6th Apr 2025
           </p>
-            <Button title={"Book Now"} />
+          <Button title={"Book Now"} />
         </div>
       </div>
       <div className="event__background">
