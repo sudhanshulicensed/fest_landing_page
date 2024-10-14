@@ -50,3 +50,12 @@
     background-position: top;
     background-repeat: no-repeat;
 }
+
+#section7 {
+    margin-top: 5rem;
+    position: relative;
+    background-image: url('./assets/images/Section7_BG.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,11 @@
+.upcoming {
+    width: 496px;
+    position: absolute;
+    left: 60%;
+    right: 10%;
+}
+
+.upcoming__event-time {
+    padding-bottom: 1rem;
+    font-size: 49px;
+}
