@@ -20,6 +20,11 @@
     background-position: top; /* Center the background image */
 }
 
+#section2 {
+    height: fit-content;
+    margin: 4rem 0;
+}
+
 #section3 {
     position: relative;
     height: 80vh;
@@ -29,4 +34,11 @@
     background-image: url('./assets/images/Section4_BG.jpg');
     background-size: cover;
     background-position: center;
+}
+
+#section5 {
+    background-image: url('./assets/images/Section5_BG.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
