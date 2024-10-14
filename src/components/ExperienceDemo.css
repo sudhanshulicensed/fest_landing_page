@@ -1,0 +1,29 @@
+.experience-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-demo__video {
+    position: relative;
+}
+
+
+
+.experience-demo__label {
+    color: #FF4A2E;
+}
+
+.experience-demo__title {
+    font-size: 44px; 
+    color: #000000;
+    padding-bottom: 3rem;
+}
+
+.experience-demo__video-icon {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    right: 45%;
+}

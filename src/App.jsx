@@ -5,6 +5,7 @@ import Footer from "@/components/FooterComponent";
 import Banner from "@/components/Banner";
 import Event from "@/components/Events";
 import EventExperience from "@/components/Experience";
+import ExperienceDemo from "@/components/ExperienceDemo";
 import "./App.css";
 
 export default function App() {
@@ -19,6 +20,9 @@ export default function App() {
       </section>
       <section id="section3" className="section">
         <EventExperience />
+      </section>
+      <section id="section4" className="section">
+        <ExperienceDemo />
       </section>
       <Main />
       <Footer />

@@ -24,3 +24,9 @@
     position: relative;
     height: 80vh;
 }
+
+#section4 {
+    background-image: url('./assets/images/Section4_BG.jpg');
+    background-size: cover;
+    background-position: center;
+}
