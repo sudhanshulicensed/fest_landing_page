@@ -1,0 +1,95 @@
+.footer {
+  margin-top: 4rem;
+  background-color: #d5edff;
+}
+.footer__background {
+  position: relative;
+}
+
+.footer__background-image {
+  width: 100vw;
+}
+
+.footer__background-logo {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.footer__description {
+  padding-top: 1rem;
+  color: #000000;
+  width: 493px;
+  height: 39px;
+}
+
+.footer__nav {
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #173d7c;
+  font-size: 18px;
+}
+
+.footer__divider {
+  border: 1px solid #000000;
+  width: 85%;
+  opacity: 0.37;
+  margin: 1rem 0;
+}
+
+.footer__wrapper {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+
+.footer__address {
+  max-width: 374px;
+}
+
+.footer__address-title,
+.footer__partners-title,
+.footer__social-title {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.footer__partners-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.footer__partner-logo {
+  width: 100%; /* Make sure the images scale properly */
+  object-fit: contain; /* Ensures the image fits inside the grid without distortion */
+}
+
+.footer__social-icons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+.footer__content-copyright {
+  color: #535353;
+  margin-bottom: 2rem;
+}
