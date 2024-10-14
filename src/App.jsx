@@ -10,6 +10,7 @@ import Highlights from "@/components/Highlights";
 import Schedule from "@/components/Schedule";
 import Upcoming from "@/components/Upcoming";
 import Destination from "@/components/Destination";
+import NewsLetter from "@/components/NewsLetter";
 
 import "./App.css";
 
@@ -40,6 +41,9 @@ export default function App() {
       </section>
       <section id="section8" className="section">
         <Destination />
+      </section>
+      <section id="section9">
+        <NewsLetter />
       </section>
       <Main />
       <Footer />
