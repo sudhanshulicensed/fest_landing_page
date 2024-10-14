@@ -4,7 +4,7 @@ import './Banner.css'
 
 export default function Banner() {
   return (
-    <section className="banner">
+    <article className="banner">
       <div className="banner_wrapper">
         <div className="banner__title text-center font-s-xxxlarge font-w-bold">
           Immerse Yourself in the Alpine Beats
@@ -20,6 +20,6 @@ export default function Banner() {
         Celebrate with us at above{" "}
         <span className="font-w-bold">3,000 meters</span>
       </div>
-    </section>
+    </article>
   );
 }
