@@ -7,9 +7,8 @@
 
 .experience-demo__video {
     position: relative;
+    padding: 1rem;
 }
-
-
 
 .experience-demo__label {
     color: #FF4A2E;
@@ -23,7 +22,18 @@
 
 .experience-demo__video-icon {
     position: absolute;
-    top: 40%;
-    left: 45%;
-    right: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 784px) {
+    .experience-demo__video {
+        padding: 1rem;
+    }
+
+    .experience-demo__title {
+        padding-bottom: 1rem;
+    }
+    
 }

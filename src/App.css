@@ -76,4 +76,17 @@
     #about_us {
         height: 100vh;
     }
+
+    #how_it_works {
+        background-image: url('./assets/images/Section4_BG.jpg');
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    #how_it_works {
+        margin-top: 5rem;
+    }
 }

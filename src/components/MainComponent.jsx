@@ -21,9 +21,9 @@ export default function MainComponent() {
       <section id="about_us" className="section">
         <EventExperience />
       </section>
-      {/* <section id="how_it_works" className="section">
+      <section id="how_it_works" className="section">
         <ExperienceDemo />
-      </section> */}
+      </section>
       {/* <section id="gallery" className="section">
         <Highlights />
       </section> */}
