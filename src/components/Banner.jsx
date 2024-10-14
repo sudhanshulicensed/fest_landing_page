@@ -1,4 +1,4 @@
-import Button from "@/components/Common/button";
+import Button from "@/components/Common/Button";
 import BannerImage from "@/assets/images/Section1_Banner.svg";
 import './Banner.css'
 
