@@ -1,5 +1,6 @@
 import Button from "@/components/Common/Button";
 import ExperienceBG from "@/assets/images/Section3_BG.jpg"
+import ExperienceBGMobile from "@/assets/images/Section3_BG_Mobile.jpg"
 import ExperienceART from "@/assets/images/Section3_BG-ART.svg"
 import './Experience.css'
 
@@ -26,7 +27,10 @@ export default function Experience() {
         </div>
       </div>
       <div className="experience__image">
-        <img src={ExperienceBG} alt="" />
+        <picture>
+            <source media="(max-width: 768px)" srcSet={ExperienceBGMobile} />
+            <img src={ExperienceBG} alt="Experience Art" />
+          </picture>
       </div>
     </article>
   );

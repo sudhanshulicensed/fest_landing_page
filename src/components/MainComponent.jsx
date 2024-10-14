@@ -18,9 +18,9 @@ export default function MainComponent() {
       <section id="section2" className="section">
         <Event />
       </section>
-      {/* <section id="about_us" className="section">
+      <section id="about_us" className="section">
         <EventExperience />
-      </section> */}
+      </section>
       {/* <section id="how_it_works" className="section">
         <ExperienceDemo />
       </section> */}

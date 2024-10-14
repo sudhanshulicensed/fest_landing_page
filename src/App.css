@@ -20,13 +20,6 @@
     background-position: top;
 }
 
-@media only screen and (max-width: 768px) {
-    #section1 {
-        background-image: url("@/assets/images/Section1_BG_Mobile.jpg");
-        align-items: flex-end;
-    }
-}
-
 #section2 {
     height: fit-content;
     padding-top: 4rem;
@@ -72,4 +65,15 @@
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+    #section1 {
+        background-image: url("@/assets/images/Section1_BG_Mobile.jpg");
+        align-items: flex-end;
+    }
+
+    #about_us {
+        height: 100vh;
+    }
 }

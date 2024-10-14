@@ -38,3 +38,28 @@
 .experience__button {
     padding-top: 3rem;
 }
+
+@media (max-width: 784px) {
+    .experience {
+        padding-top: 5em;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .experience__button, .experience__art {
+        display: none;
+    }
+
+    .experience__content, .experience__image {
+        width: 100%;
+    }
+
+    .experience__image, .experience__title, .experience__description {
+        text-align: center;
+    }
+    
+    .experience__content {
+        padding: 0 1rem;
+        align-items: center;
+    }
+}
