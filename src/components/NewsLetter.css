@@ -19,7 +19,8 @@
 .newsletter__input {
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #cfcfcf;
-  width: 466px;
+  max-width: 466px;
+  width: 100%;
   height: 50px;
   opacity: 1;
   padding: 1rem;
@@ -27,5 +28,11 @@
 }
 
 .newsletter__input:focus {
-  border-color: #a9a9a9; /* Darker border color on focus */
+  border-color: #a9a9a9;
+}
+
+@media (max-width: 784px) {
+  .newsletter {
+    margin: 4rem 2rem;
+  }
 }
