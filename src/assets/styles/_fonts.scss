@@ -1,10 +1,10 @@
 :root {
     --font-family: 'Ubuntu', sans-serif;
+    --font-family-seconday: 'Montserrat', sans-serif;
     --font-weight-light: 300;
     --font-weight-regular: 400;
     --font-weight-medium: 500;
     --font-weight-bold: 700;
-
     --font-size-small: 14px;
     --font-size-medium: 16px;
     --font-size-large: 20px;
@@ -50,4 +50,7 @@ font-size: var(--font-size-xlarge);
 }
 .font-s-xxxlarge {
     font-size: var(--font-size-xxxlarge);
+}
+.font-Montserrat {
+    font-family: var(--font-family-seconday);
 }
