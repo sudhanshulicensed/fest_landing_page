@@ -1,2 +1,2 @@
-export const isMobile = () => window.innerWidth <= 768;
-export const isLargeScreen = () => window.innerWidth > 768;
+export const isMobile = () => window.matchMedia("(max-width: 768px)").matches;
+export const isLargeScreen = () => window.matchMedia("(min-width: 768px)").matches;
