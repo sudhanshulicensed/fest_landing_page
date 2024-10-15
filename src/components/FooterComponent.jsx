@@ -1,5 +1,6 @@
 import React from "react";
 import SectionBG from "@/assets/images/Section10_BG.jpg";
+import SectionBGMobile from "@/assets/images/Section10_BG_Mobile.jpg"
 import SectionBGLogo from "@/assets/images/Section10_BG_Logo.svg";
 import "./Footer.css";
 import Facebook from "@/assets/images/Group69.svg"
@@ -18,11 +19,10 @@ export default function FooterComponent() {
   return (
     <footer className="footer" id="contact">
       <div className="footer__background">
-        <img
-          className="footer__background-image"
-          src={SectionBG}
-          alt="Background"
-        />
+      <picture>
+            <source media="(max-width: 768px)" srcSet={SectionBGMobile} />
+            <img className="footer__background-image" src={SectionBG} alt="Experience Art" />
+          </picture>
         <img
           className="footer__background-logo"
           src={SectionBGLogo}
@@ -30,7 +30,7 @@ export default function FooterComponent() {
         />
       </div>
       <div className="footer__content">
-        <p className="footer__description font-s-small font-w-light">
+        <p className="footer__description text-center font-s-small font-w-light">
           JOL - Partwagon To Music Fest & Spots brand and concept is owned by
           M/S Bholi Travelsome Services - a private limited company registered
           in India
