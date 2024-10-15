@@ -10,35 +10,25 @@ import Destination from "@/components/Destination";
 import NewsLetter from "@/components/NewsLetter";
 
 export default function MainComponent() {
+  const sections = [
+    { id: "section1", component: <Banner /> },
+    { id: "section2", component: <Event /> },
+    { id: "about_us", component: <EventExperience /> },
+    { id: "how_it_works", component: <ExperienceDemo /> },
+    { id: "gallery", component: <Highlights /> },
+    { id: "section6", component: <Schedule /> },
+    { id: "section7", component: <Upcoming /> },
+    { id: "destination", component: <Destination /> },
+    { id: "section9", component: <NewsLetter /> },
+  ];
+
   return (
     <main>
-      <section id="section1" className="section">
-        <Banner />
-      </section>
-      <section id="section2" className="section">
-        <Event />
-      </section>
-      <section id="about_us" className="section">
-        <EventExperience />
-      </section>
-      <section id="how_it_works" className="section">
-        <ExperienceDemo />
-      </section>
-      <section id="gallery" className="section">
-        <Highlights />
-      </section>
-      <section id="section6" className="section">
-        <Schedule />
-      </section>
-      <section id="section7" className="section">
-        <Upcoming />
-      </section>
-      <section id="destination" className="section">
-        <Destination />
-      </section>
-      <section id="section9">
-        <NewsLetter />
-      </section>
+      {sections.map(({ id, component }) => (
+        <section key={id} id={id} className="section">
+          {component}
+        </section>
+      ))}
     </main>
   );
 }
