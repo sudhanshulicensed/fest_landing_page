@@ -13,13 +13,13 @@ import VIPImage3 from "@/assets/images/Section5_VIP3.jpg";
 import VIPImage4 from "@/assets/images/Section5_VIP4.jpg";
 import VIPImage5 from "@/assets/images/Section5_VIP5.jpg";
 import "./Highlights.css";
-import { isMobile } from "@/utils/screenSize";
+import { useIsMobile } from "@/utils/screenSize";
 
 export default function Highlights() {
+  const isMobile = useIsMobile();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isVIP, setIsVIP] = useState(false);
-  const [mobileView, setMobileView] = useState(false);
-  const imagesToShow = mobileView ? 1 : 3;
+  const imagesToShow = isMobile ? 1 : 2;
 
   const images = [
     GeneralImage1,
@@ -29,17 +29,6 @@ export default function Highlights() {
     GeneralImage5,
   ];
   const vipImages = [VIPImage1, VIPImage2, VIPImage3, VIPImage4, VIPImage5];
-
-  useEffect(() => {
-    const checkScreenSize = () => {
-      setMobileView(isMobile());
-    };
-
-    checkScreenSize();
-    window.addEventListener("resize", checkScreenSize);
-
-    return () => window.removeEventListener("resize", checkScreenSize);
-  }, []);
 
   const handleLeftClick = () => {
     setCurrentIndex((prevIndex) =>
@@ -85,7 +74,7 @@ export default function Highlights() {
       </p>
       <div className="highlights__button">
         <div onClick={handleGeneralClick} className="general-tour pointer">
-          {!mobileView && (
+          {!isMobile && (
             <img
               src={GeneralTicket}
               alt="General Tour Ticket"
@@ -93,7 +82,7 @@ export default function Highlights() {
             />
           )}
           <p className="general-tour__button-text font-s-regular">
-            {mobileView ? "All" : "General Tour Ticket"}
+            {isMobile ? "All" : "General Tour Ticket"}
           </p>
         </div>
         <div onClick={handleVIPClick} className="vip-tour pointer">
@@ -103,7 +92,7 @@ export default function Highlights() {
             alt=""
           />
           <p className="vip-tour__button-text font-w-medium">
-            {mobileView ? "VIP" : "VIP Tour Ticket"}
+            {isMobile ? "VIP" : "VIP Tour Ticket"}
           </p>
         </div>
       </div>

@@ -3,9 +3,12 @@ import Divider from "@/assets/images/Section2_Divider.svg";
 import EventBG from "@/assets/images/Section2_BG.jpg";
 import EventLocationButton from "@/assets/images/Section2_Button.svg";
 import Button from "@/components/Common/Button";
+import { useIsMobile } from "@/utils/screenSize";
+
 import "./Events.css";
 
 export default function Event() {
+  const isMobile = useIsMobile();
   return (
     <article className="event">
       <div className="event__wrapper">
@@ -27,7 +30,7 @@ export default function Event() {
           <p className="event__title font-s-xxxlarge font-w-medium">
             1st Apr - 6th Apr 2025
           </p>
-          <Button title={"Book Now"} />
+          <Button title={ isMobile ? "Pre-Register Now" : "Book Now"} />
         </div>
       </div>
       <div className="event__background">

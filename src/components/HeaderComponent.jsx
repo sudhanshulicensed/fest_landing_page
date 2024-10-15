@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ToggleNavigation from "@/assets/images/ToggleNavigation.svg";
 import Button from "@/components/Common/Button";
 import "./Header.scss";
+import { useIsMobile } from "@/utils/screenSize";
 
 export default function HeaderComponent() {
   const navigationItem = [
@@ -11,6 +12,13 @@ export default function HeaderComponent() {
     { text: "Contact", value: "contact" },
   ];
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const isMobile = useIsMobile();
+
+  useEffect(() => {
+    if (!isMobile && isMobileMenuOpen) {
+      setIsMobileMenuOpen(false);
+    }
+  }, [isMobile, isMobileMenuOpen]);
 
   return (
     <header className="header">
