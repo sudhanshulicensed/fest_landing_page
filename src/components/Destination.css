@@ -11,8 +11,9 @@
 
 .destination__item-text {
     position: absolute;
-    left: 35%;
-    top: 38%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width : 784px) {

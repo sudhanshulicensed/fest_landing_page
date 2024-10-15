@@ -62,8 +62,8 @@
 
 #destination {
   background-image: url("./assets/images/Section8_BG.jpg");
-  background-size: cover;
-  background-position: top;
+  background-size: contain;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
@@ -101,6 +101,7 @@
   }
 
   #destination {
+    padding: 2rem 0;
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
