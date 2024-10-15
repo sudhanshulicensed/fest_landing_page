@@ -1,11 +1,43 @@
 .upcoming {
-    width: 496px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
     position: absolute;
-    left: 60%;
-    right: 10%;
+    right: 20%;
+    top: 40%;
+    transform: translate(17%, -10%);
 }
 
 .upcoming__event-time {
     padding-bottom: 1rem;
     font-size: 49px;
+}
+
+.upcoming__title, .upcoming__event-time {
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .upcoming {
+        justify-content: center;
+        position: unset;
+        left: unset;
+        right: unset;
+        margin-bottom: 5rem;
+        transform: unset;
+    }
+
+    .upcoming__content {
+        text-align: center;
+    }
+
+    .upcoming__event-time {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 540px) {
+    .upcoming {
+        margin-bottom: 10rem;
+    }
 }

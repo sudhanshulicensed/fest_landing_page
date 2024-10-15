@@ -68,3 +68,9 @@
 .banner__subtitle {
   margin: 5rem 1.5rem 0 0;
 }
+
+@media only screen and (max-height: 700px) {
+  .banner__image-container {
+    align-items: flex-end;
+  }
+}

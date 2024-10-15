@@ -1,102 +1,101 @@
 .app {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 #section1 {
-    background-image: url('./assets/images/Section1_BG.jpg');
-    background-size: cover;
-    background-position: top;
+  background-image: url("./assets/images/Section1_BG.jpg");
+  background-size: cover;
+  background-position: top;
 }
 
 #section2 {
-    height: fit-content;
-    padding-top: 4rem;
+  height: fit-content;
+  padding-top: 4rem;
 }
 
 #about_us {
-    position: relative;
-    height: 80vh;
+  position: relative;
+  height: 80vh;
 }
 
 #how_it_works {
-    height: 80vh;
-    background-image: url('./assets/images/Section4_BG.jpg');
-    background-size: cover;
-    background-position: center;
+  height: 80vh;
+  background-image: url("./assets/images/Section4_BG.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #gallery {
-    background-image: url('./assets/images/Section5_BG.jpg');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+  background-image: url("./assets/images/Section5_BG.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 #section6 {
-    height: auto;
-    background-image: url('./assets/images/Section6_BG.jpg');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+  height: auto;
+  background-image: url("./assets/images/Section6_BG.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 #section7 {
-    margin-top: 5rem;
-    position: relative;
-    background-image: url('./assets/images/Section7_BG.jpg');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+  margin-top: 5rem;
+  position: relative;
+  background-image: url("./assets/images/Section7_BG.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 #destination {
-    background-image: url('./assets/images/Section8_BG.jpg');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+  background-image: url("./assets/images/Section8_BG.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 768px) {
-    #section1 {
-        background-image: url("@/assets/images/Section1_BG_Mobile.jpg");
-        align-items: flex-end;
-    }
+  #section1 {
+    background-image: url("@/assets/images/Section1_BG_Mobile.jpg");
+    align-items: flex-end;
+  }
 
-    #about_us {
-        height: 100%;
-    }
+  #about_us {
+    height: 100%;
+  }
 
-    #how_it_works {
-        height: 70vh;
-        background-image: url('./assets/images/Section4_BG.jpg');
-        background-size: contain;
-        background-position: bottom;
-        background-repeat: no-repeat;
-    }
+  #how_it_works {
+    height: 70vh;
+    background-image: url("./assets/images/Section4_BG.jpg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
 
-    #section7 {
-        margin-top: 1rem;
-        height: 870px;
-        background-image: url("@/assets/images/Section7_BG_Mobile.jpg");
-        align-items: flex-end;
-    }
-
+#section7 {
+  margin-top: 1rem;
+  height: 870px;
+  background-image: url("@/assets/images/Section7_BG_Mobile.jpg");
+  align-items: flex-end;
 }
 
 @media only screen and (max-height: 700px) {
-    #how_it_works {
-        margin-top: 5rem;
-    }
+  #how_it_works {
+    margin-top: 5rem;
+  }
 }
