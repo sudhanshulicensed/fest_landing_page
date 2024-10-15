@@ -6,7 +6,7 @@
 }
 
 .highlights__button {
-    margin-top: 2rem;
+  margin: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,10 +14,10 @@
 }
 
 .highlights__divider {
-    border : 1px solid #D3D3D3;
-    width: 100%;
-    opacity: 0.37;
-    margin: 1rem 0;
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  opacity: 0.37;
+  margin: 1rem 0;
 }
 
 .general-tour {
@@ -40,15 +40,15 @@
 }
 
 .vip-tour {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0.5rem;
 }
 
 .vip-tour__button-text {
-    font-size: 23px;
-    color: #FFAB1E;
+  font-size: 23px;
+  color: #ffab1e;
 }
 
 .highlights__carousel {
@@ -65,14 +65,14 @@
 }
 
 .highlights__carousel {
-    position: relative;
+  position: relative;
 }
 
 .highlights__carousel-images {
   max-height: 368px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
 }
 
 .highlights__image {
@@ -80,13 +80,53 @@
 }
 
 .highlights__carousel-action-left {
-    position: absolute;
-    top: 45%;
-    left: -2.5rem;
-    transform: rotate(180deg);
+  position: absolute;
+  top: 45%;
+  left: -2.5rem;
+  transform: rotate(180deg);
 }
 .highlights__carousel-action-right {
+  position: absolute;
+  top: 45%;
+  right: -2.5rem;
+}
+
+@media (max-width: 768px) {
+
+  .highlights__image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .highlights__button-mobile {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+  }
+
+  .general-tour {
+    display: flex;
+    align-items: center;
+  }
+
+  .general-tour__button-text {
+    position: unset;
+    top: unset;
+    left: unset;
+    right: unset;
+  }
+
+  .highlights__carousel-action-left {
     position: absolute;
-    top: 45%;
-    right: -2.5rem;
+    top: 35%;
+    left: -1.5rem;
+    transform: rotate(180deg);
+  }
+  .highlights__carousel-action-right {
+    position: absolute;
+    top: 35%;
+    right: -1.5rem;
+  }
 }
