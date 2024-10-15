@@ -10,16 +10,6 @@
     padding: 1rem;
 }
 
-.experience-demo__label {
-    color: #FF4A2E;
-}
-
-.experience-demo__title {
-    font-size: 44px; 
-    color: #000000;
-    padding-bottom: 3rem;
-}
-
 .experience-demo__video-icon {
     position: absolute;
     top: 50%;
@@ -30,10 +20,6 @@
 @media (max-width: 784px) {
     .experience-demo__video {
         padding: 1rem;
+        padding: 2rem 1rem;
     }
-
-    .experience-demo__title {
-        padding-bottom: 1rem;
-    }
-    
 }

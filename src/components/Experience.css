@@ -10,15 +10,6 @@
     padding-left: 6rem;
 }
 
-.experience__label {
-    color: #FF4A2E;
-}
-
-.experience__title {
-    font-size: 44px;
-    color: #000000;
-}
-
 .experience__description {
     padding-top: 1rem;
     color: #000000;
@@ -54,7 +45,7 @@
         width: 100%;
     }
 
-    .experience__image, .experience__title, .experience__description {
+    .experience__image, .experience__description {
         text-align: center;
     }
     

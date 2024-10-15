@@ -1,3 +1,5 @@
+import Label from "@/components/Common/Label";
+import SubTitle from "@/components/Common/SubTitle";
 import LocationPing from "@/assets/images/Section6_MapLocation.svg";
 import Download from "@/assets/images/Section6_Download.svg";
 import Profile from "@/assets/images/Section6_Profile.jpg";
@@ -14,12 +16,8 @@ export default function Schedule() {
   }
   return (
     <article className="schedule">
-      <p className="schedule__label font-w-regular font-s-medium">
-        ADVENTURE SCHEDULE
-      </p>
-      <p className="schedule__title text-center">
-        Your Festival Journey: Day-by-Day Breakdown
-      </p>
+        <Label text={'JOIN US FOR A THRILLING EXPERIENCE'}/>
+        <SubTitle textColor={'#0E0E0E'} text={'Five days of music, skiing & Après Ski entertainment'} centerText={true}/>
       <div className="schedule__component">
         <div className="schedule__navigation-bar">
           <ul className="schedule__navigation-list">
@@ -75,13 +73,15 @@ export default function Schedule() {
               <img src={Profile} alt="Schedule Image" className="schedule__profile-image" />
             </div>
           </div>
-          <Button title={"Download Brochure"}>
+          <div className="schedule-brochure__button-wrapper">
+          <Button title={"Download Brochure"} buttonHeight={'55px'} buttonWidth={'255px'}>
             <img
               className="schedule-brochure__image"
               src={Download}
               alt="Download Brochure"
             />
           </Button>
+          </div>
         </div>
       </div>
     </article>

@@ -14,15 +14,6 @@
   margin: 0 auto;
 }
 
-.schedule__label {
-  color: #ff4a2e;
-}
-
-.schedule__title {
-  font-size: 44px;
-  color: #000000;
-}
-
 .schedule__navigation-bar {
   background-color: #1e73ff;
   height: 73px;
@@ -72,8 +63,9 @@
   text-align: center;
 }
 
-.schedule__profile {
-  /* padding: 2rem; */
+.schedule-brochure__button-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .schedule-brochure__image {

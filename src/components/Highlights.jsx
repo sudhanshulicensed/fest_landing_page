@@ -1,4 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import Label from "@/components/Common/Label";
+import SubTitle from "@/components/Common/SubTitle";
 import GeneralTicket from "@/assets/images/Section5_Button.svg";
 import GeneralTicketIcon from "@/assets/images/Section5_Button2_Prefix.svg";
 import Scroll from "@/assets/images/Section5_Scroll.svg";
@@ -68,10 +70,8 @@ export default function Highlights() {
   };
   return (
     <article className="highlights">
-      <p className="highlights__label">FESTIVAL MAGIC</p>
-      <p className="highlights__title font-w-medium text-center">
-        Dive into the Highlights
-      </p>
+      <Label text={'FESTIVAL MAGIC'}/>
+      <SubTitle textColor={'#FFFFFF'} text={'Dive into the Highlights'}/>
       <div className="highlights__button">
         <div
           onClick={() => handleGeneralClick()}

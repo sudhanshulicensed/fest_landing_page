@@ -13,7 +13,7 @@ export default function Banner() {
           Immerse Yourself in the Alpine Beats
         </div>
         <div className="banner__button">
-            <Button title={isMobile ? "Pre-Register Now" : "Book Now"} />
+            <Button title={isMobile ? "Pre-Register Now" : "Book Now"}  buttonHeight={'55px'}/>
         </div>
         <div className="banner__image-container">
           <img src={BannerImage} alt="Banner" className="banner__image" />

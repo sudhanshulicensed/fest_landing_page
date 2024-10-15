@@ -1,12 +1,3 @@
-.newsletter__label {
-    color: #FF4A2E;
-}
-
-.newsletter__title {
-    color: #0E0E0E;
-    font-size: 44px;
-}
-
 .newsletter__form {
     margin-top: 2rem;
     display: flex;

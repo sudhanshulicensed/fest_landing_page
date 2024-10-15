@@ -12,8 +12,9 @@
 
 .footer__background-logo {
   position: absolute;
-  left: 40%;
-  top: 40%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -30%);
 }
 
 .footer__content {
@@ -115,6 +116,7 @@ address {
     position: unset;
     left: unset;
     top: unset;
+    transform: unset;
   }
 
   .footer__content {

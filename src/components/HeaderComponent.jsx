@@ -72,7 +72,7 @@ export default function HeaderComponent() {
           </a>
         </li>
         <li className="navigation__item">
-          <Button title={"Destination"} />
+          <Button title={"Destination"} buttonHeight={'42px'} buttonWidth={'139px'}/>
         </li>
       </ul>
     </header>

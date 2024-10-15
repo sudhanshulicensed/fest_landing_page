@@ -30,7 +30,7 @@ export default function Event() {
           <p className="event__title font-s-xxxlarge font-w-medium">
             1st Apr - 6th Apr 2025
           </p>
-          <Button title={ isMobile ? "Pre-Register Now" : "Book Now"} />
+          <Button title={ isMobile ? "Pre-Register Now" : "Book Now"} buttonHeight={'55px'}/>
         </div>
       </div>
       <div className="event__background">
