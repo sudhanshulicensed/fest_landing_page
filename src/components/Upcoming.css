@@ -17,6 +17,12 @@
     word-wrap: break-word;
 }
 
+@media (min-width: 1380px) {
+    .upcoming {
+        width: 50%;
+    }
+}
+
 @media (max-width: 768px) {
     .upcoming {
         justify-content: center;
