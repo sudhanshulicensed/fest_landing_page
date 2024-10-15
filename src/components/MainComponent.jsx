@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "@/components/Banner";
 import Event from "@/components/Events";
 import EventExperience from "@/components/Experience";

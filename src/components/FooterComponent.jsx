@@ -1,4 +1,3 @@
-import React from "react";
 import SectionBG from "@/assets/images/Section10_BG.jpg";
 import SectionBGMobile from "@/assets/images/Section10_BG_Mobile.jpg"
 import SectionBGLogo from "@/assets/images/Section10_BG_Logo.svg";

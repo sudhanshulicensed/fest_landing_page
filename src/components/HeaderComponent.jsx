@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import ToggleNavigation from "@/assets/images/ToggleNavigation.svg";
 import Button from "@/components/Common/Button";
 import "./Header.scss";

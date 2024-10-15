@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import GeneralTicket from "@/assets/images/Section5_Button.svg";
 import GeneralTicketIcon from "@/assets/images/Section5_Button2_Prefix.svg";
 import Scroll from "@/assets/images/Section5_Scroll.svg";
