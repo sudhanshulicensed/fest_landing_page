@@ -35,6 +35,7 @@
   }
 
   .banner__title {
+    padding: 0 1rem;
     font-size: 44px !important;
     order: 3;
   }

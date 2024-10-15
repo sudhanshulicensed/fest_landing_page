@@ -26,10 +26,10 @@ export default function MainComponent() {
       </section>
       {/* <section id="gallery" className="section">
         <Highlights />
-      </section>
+      </section> */}
       <section id="section6" className="section">
         <Schedule />
-      </section> */}
+      </section>
       <section id="section7" className="section">
         <Upcoming />
       </section>

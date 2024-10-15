@@ -11,7 +11,7 @@ export default function Schedule() {
       <p className="schedule__label font-w-regular font-s-medium">
         ADVENTURE SCHEDULE
       </p>
-      <p className="schedule__title">
+      <p className="schedule__title text-center">
         Your Festival Journey: Day-by-Day Breakdown
       </p>
       <div className="schedule__component">

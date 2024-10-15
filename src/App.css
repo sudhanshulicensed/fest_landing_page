@@ -45,7 +45,7 @@
 }
 
 #section6 {
-  height: auto;
+  height: 100%;
   background-image: url("./assets/images/Section6_BG.jpg");
   background-size: cover;
   background-position: top;
@@ -53,7 +53,6 @@
 }
 
 #section7 {
-  margin-top: 5rem;
   position: relative;
   background-image: url("./assets/images/Section7_BG.jpg");
   background-size: cover;
@@ -84,6 +83,10 @@
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
+  }
+
+  #section6 {
+    background-image: unset;
   }
 
   #section7 {

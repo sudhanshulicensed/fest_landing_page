@@ -135,13 +135,6 @@ address {
     display: none;
   }
 
-  .footer__wrapper {
-    flex-direction: column;
-    width: 100%;
-    padding: 2rem 1.5rem;
-    row-gap: 3rem;
-  }
-
   .footer {
     background-color: #E4F3FF;
   }
@@ -150,4 +143,14 @@ address {
     background-color: #D5EDFF;
     margin-bottom: 0;
   }
+}
+
+@media (max-width: 1024px) { 
+  .footer__wrapper {
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    row-gap: 3rem;
+  }
+
 }
