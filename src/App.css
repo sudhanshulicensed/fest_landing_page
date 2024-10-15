@@ -67,6 +67,10 @@
   background-repeat: no-repeat;
 }
 
+#section9 {
+  height: fit-content;
+}
+
 @media only screen and (max-width: 768px) {
   #section1 {
     background-image: url("@/assets/images/Section1_BG_Mobile.jpg");
