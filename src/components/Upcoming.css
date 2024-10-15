@@ -17,6 +17,12 @@
     word-wrap: break-word;
 }
 
+.upcoming__content-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (min-width: 1380px) {
     .upcoming {
         width: 50%;
