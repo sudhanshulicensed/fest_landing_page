@@ -4,8 +4,14 @@ import Profile from "@/assets/images/Section6_Profile.jpg";
 import Bullet from "@/assets/images/Section6_ListItem.svg";
 import Button from "@/components/Common/Button";
 import "./Schedule.css";
+import { act, useState } from "react";
 
 export default function Schedule() {
+  const days = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5'];
+  const [activeDay, setActiveDay] = useState('Day 1');
+  function handleDateChange (day) {
+    setActiveDay(day)
+  }
   return (
     <article className="schedule">
       <p className="schedule__label font-w-regular font-s-medium">
@@ -17,13 +23,13 @@ export default function Schedule() {
       <div className="schedule__component">
         <div className="schedule__navigation-bar">
           <ul className="schedule__navigation-list">
-            <li className="schedule__navigation-item schedule__navigation-item-active">
-              Day 1
-            </li>
-            <li className="schedule__navigation-item">Day 2</li>
-            <li className="schedule__navigation-item">Day 3</li>
-            <li className="schedule__navigation-item">Day 4</li>
-            <li className="schedule__navigation-item">Day 5</li>
+            {
+              days.map((day) => {
+                return <li key={day} onClick={() => handleDateChange(day)} className={`schedule__navigation-item ${activeDay == day ? 'schedule__navigation-item-active' : ''}`}>
+                {day}
+              </li>
+              })
+            }
           </ul>
           <ul className="schedule__navigation-type">
             <li className="schedule__navigation-type-item schedule__navigation-type-item-active">
@@ -37,7 +43,7 @@ export default function Schedule() {
             <div className="schedule__list-holder">
               <p className="schedule__list-header font-w-bold font-s-large">
                 <img src={LocationPing} alt="Schedule Title" />
-                Day 1: Kickoff to Adventure
+                {activeDay}: Kickoff to Adventure
               </p>
 
               <ul className="schedule__list-items">

@@ -73,27 +73,55 @@ export default function Highlights() {
         Dive into the Highlights
       </p>
       <div className="highlights__button">
-        <div onClick={handleGeneralClick} className="general-tour pointer">
-          {!isMobile && (
+        <div
+          onClick={() => handleGeneralClick()}
+          className="general-tour pointer"
+        >
+          {!isMobile && !isVIP && (
             <img
               src={GeneralTicket}
               alt="General Tour Ticket"
               className="general-tour__button-image"
             />
           )}
-          <p className="general-tour__button-text font-s-regular">
+          <p className={`general-tour__button-text font-s-regular ${!isVIP ? 'general-tour__button-abs' : ''}`}>
             {isMobile ? "All" : "General Tour Ticket"}
           </p>
         </div>
-        <div onClick={handleVIPClick} className="vip-tour pointer">
-          <img
-            className="vip-tour__button-prefix"
-            src={GeneralTicketIcon}
-            alt=""
-          />
-          <p className="vip-tour__button-text font-w-medium">
-            {isMobile ? "VIP" : "VIP Tour Ticket"}
-          </p>
+        <div onClick={() => handleVIPClick()} className="vip-tour pointer">
+          {!isMobile && (
+            <>
+              {
+                (!isMobile && isVIP) && <img
+                src={GeneralTicket}
+                alt="General Tour Ticket"
+                className="general-tour__button-image"
+              />
+              }
+              <div className={ isVIP ? 'vip-tour__button-abs' : 'vip-tour-stable'}>
+                <img
+                  className="vip-tour__button-prefix"
+                  src={GeneralTicketIcon}
+                  alt=""
+                />
+                <p className="vip-tour__button-text font-w-medium">
+                  {isMobile ? "VIP" : "VIP Tour Ticket"}
+                </p>
+              </div>
+            </>
+          )}
+          {isMobile && (
+            <>
+              <img
+                className="vip-tour__button-prefix"
+                src={GeneralTicketIcon}
+                alt=""
+              />
+              <p className="vip-tour__button-text font-w-medium">
+                {isMobile ? "VIP" : "VIP Tour Ticket"}
+              </p>
+            </>
+          )}
         </div>
       </div>
       <hr className="highlights__divider" />
