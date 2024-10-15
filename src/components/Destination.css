@@ -23,3 +23,11 @@
     left: 35%;
     top: 38%;
 }
+
+@media (max-width : 784px) {
+    .destination__item {
+        flex-direction: column;
+        padding: 1rem;
+        row-gap: 1rem;
+    }
+}

@@ -33,9 +33,9 @@ export default function MainComponent() {
       <section id="section7" className="section">
         <Upcoming />
       </section>
-      {/* <section id="destination" className="section">
+      <section id="destination" className="section">
         <Destination />
-      </section> */}
+      </section>
       {/* <section id="section9">
         <NewsLetter />
       </section> */}
