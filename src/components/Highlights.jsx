@@ -124,8 +124,8 @@ export default function Highlights() {
           )}
         </div>
       </div>
-      <hr className="highlights__divider" />
       <div className="highlights__carousel">
+      <hr className="highlights__divider" />
         <div className="highlights__carousel-images">
           {getVisibleImages().map((image, index) => (
             <img

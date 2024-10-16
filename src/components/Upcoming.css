@@ -20,12 +20,22 @@
 .upcoming__content-button-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 @media (min-width: 1380px) {
     .upcoming {
         width: 50%;
+    }
+}
+
+@media (min-width : 769px) and (max-width : 1379px) 
+{
+    .upcoming {
+        padding-right: 10%;
+    }
+    .upcoming__content {
+        width: 40%;
     }
 }
 
@@ -35,21 +45,26 @@
         position: unset;
         left: unset;
         right: unset;
-        margin-bottom: 5rem;
+        margin-top: 5rem;
         transform: unset;
     }
 
     .upcoming__content {
+        /* width: 100%; */
         text-align: center;
     }
 
     .upcoming__event-time {
         font-size: 34px;
     }
+
+    .upcoming__content-button-wrapper  {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 540px) {
     .upcoming {
-        margin-bottom: 10rem;
+        margin-bottom: 6rem;
     }
 }

@@ -24,7 +24,7 @@ export default function MainComponent() {
   return (
     <main>
       {sections.map(({ id, component }) => (
-        <section key={id} id={id} className="section">
+        <section key={id} id={id} className={id == 'gallery' || id == 'destination' ? '' : 'section'}>
           {component}
         </section>
       ))}
